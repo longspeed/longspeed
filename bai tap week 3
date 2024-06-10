@@ -43,6 +43,30 @@ for number in numbers:
 
 print("Tong cac so chan la: ", even )
 
+#bai 5
+import turtle
+from turtle import*
+turtle = Turtle()
+turtle.speed(0)
+instructions = ['left', 100, 'right', 100, 'right', 100, 'right', 100, 'right', 'right', 'circle']
+for instruction in instructions:
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.right(180)
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.right(180)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.circle(50)
+    done()
 
 
 
