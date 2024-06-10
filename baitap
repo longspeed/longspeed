@@ -1,0 +1,171 @@
+i = int(input("Choose a number"))
+j = int(input("Choose a number"))
+characters = str(input("Nhap chuoi"))
+cha = ""
+print("Chuoi ki tu con : "  + characters[1:3])
+cha = characters [1:3]
+print(cha)
+for chas in cha:
+    if chas == "a":
+        print("So ki tu a: ", len(chas))
+    elif chas == "b":
+        print("So ki tu b : " , len(chas))
+
+
+
+
+a = str(input("word : " ))
+last_3_characters = a[-3:]
+new_str = ""
+if last_3_characters == 'ing':
+ new_str = a + 'ly'
+else:
+ new_str = a + 'ing'
+
+print(new_str)
+
+
+
+
+
+
+count = 0
+characters  =["a" , "b" , "c" ,"a"]
+for character in characters:
+    if character =="a":
+        count = count+1
+
+print(count)
+
+
+
+
+
+
+
+
+
+
+import turtle
+from turtle import*
+turtle.Turtle()
+turtle.speed(0)
+colors = ["red" , "green" , "blue" , "orange"]
+for color in colors:
+    if color == "red":
+        turtle.fillcolor("red")
+        turtle.begin_fill()
+        turtle.circle(100)
+        turtle.end_fill()
+
+
+
+    elif color == "green":
+        turtle.fillcolor("green")
+        turtle.begin_fill()
+        turtle.forward(100)
+        turtle.left(90)
+        turtle.forward(100)
+        turtle.left(90)
+        turtle.forward(100)
+        turtle.left(90)
+        turtle.forward(100)
+        turtle.left(90)
+        turtle.end_fill()
+
+
+    elif color == "blue":
+        turtle.fillcolor("blue")
+        turtle.begin_fill()
+        turtle.forward(120)
+        turtle.left(90)
+        turtle.forward(80)
+        turtle.left(90)
+        turtle.forward(120)
+        turtle.left(90)
+        turtle.forward(80)
+        turtle.left(90)
+        turtle.end_fill()
+    elif color == "orange":
+        turtle.fillcolor("orange")
+        turtle.begin_fill()
+        turtle.forward(100)
+        turtle.left(120)
+        turtle.forward(100)
+        turtle.left(120)
+        turtle.forward(100)
+        turtle.left(120)
+        turtle.end_fill()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+done()
+
+
+
+
+
+
+
+
+
+
+
+
+a = int(input("Nhap canh 1: "))
+b = int(input("Nhap canh 2: "))
+c = int(input("Nhap canh 3: "))
+if a == b and b == c:
+    print("Tam giac cua ban la tam giac deu")
+
+if a==b or b==c or a==c :
+    print("Tam giac cua ban la tam giac can")
+
+
+
+
+
+
+a = int(input("Nhap a: "))
+b = int(input("Nhap b:  "))
+if b == 0:
+    print("Khong hop le")
+print(a/b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
