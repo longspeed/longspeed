@@ -1,0 +1,22 @@
+#bai 1:
+
+numbers = [1 ,2 ,3 ,4 ,5 ,6]
+for number in numbers:
+    if number % 2 !=0:
+        print(number)
+
+#bai 2:
+numbers =[1,2,3,4,5,6,7,8,9,10]
+odd = 0
+even = 0
+for number in numbers:
+    if number % 2 != 0:
+        odd += 1
+    else:
+        even +=1
+
+print("So luong so chan :",even)
+print("So luong so le : " ,odd)
+
+
+
