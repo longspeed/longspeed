@@ -1,0 +1,34 @@
+a = ["a", "b", "c", "d" ,"e"]
+print(a)
+len (a)
+
+print(len(a))
+
+#add elements
+a.extend("f")
+a.append("g")
+print(a)
+#do dai
+len(a)
+print(len(a))
+#lay ki tu
+print(a[1 : 4])
+
+if "a" in a:
+    print("yes")
+    a.remove("a")
+else:
+    print("no")
+
+a.insert(1, "L")
+print(a)
+mix = ["long" , 1 , 5 , "True" ]
+print(mix)
+#thay doi so 1 thanh so 2 trong danh sach
+mix[1] = 2
+print(mix)
+#in tat ca cac elements trong 1 bien
+for a in a:
+    print(a)
+
+
