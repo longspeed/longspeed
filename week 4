@@ -1,0 +1,69 @@
+
+1.
+for i in range (10 , 1001):
+    print(i)
+2.
+a = int(input("Choose a: "))
+b = int(input("Choose b: "))
+for i in range (a , b + 1):
+    print(i)
+3.
+a = int(input("Choose a: "))
+b = int(input("Choose b: "))
+for i in range (a , b + 1):
+    if i % 3 == 0 and i % 5 ==0:
+        print(i)
+  4.
+a = (0)
+for i in range(1 , 101):
+    a = a ++ i
+print(a)
+5.
+a = int(input("Chon ban cu chuong: "))
+for i in range(0+a , a*11 , a):
+    print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import turtle
+from turtle import *
+t = Turtle()
+t.speed(0)
+for a in range(1,5):
+    for i in range (1, 10):
+
+        t.fd(50)
+        t.right(90)
+    t.lt(90)
+
+
+done()
