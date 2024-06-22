@@ -114,11 +114,21 @@ for a in range(1,100):
     t.pendown()
 
 done()
-
-
-
-
-
+8.
+from turtle import*
+import turtle
+t = Turtle()
+t.fillcolor("yellow")
+t.begin_fill()
+t.rt(45)
+t.speed(0)
+t.circle(radius=100, extent=280)
+t.lt(80)
+t.fd(100)
+t.rt(90)
+t.fd(95)
+t.end_fill()
+done()
 
 9.
 from turtle import*
@@ -129,5 +139,21 @@ for a in range(0 , 300 , 20):
     t.circle(a)
     t.penup()
     t.goto(x=0 , y = -a)
+    t.pendown()
+done()
+10.
+from turtle import*
+import turtle
+t = Turtle()
+t.speed(0)
+for a in range(3):
+    for i in range(5):
+        t.circle(radius=100, extent=90)
+        t.lt(90)
+        t.circle(radius=100, extent=90)
+        t.lt(180)
+    t.rt(90)
+    t.penup()
+    t.fd(200)
     t.pendown()
 done()
