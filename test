@@ -96,6 +96,21 @@ for a in range(10):
     t.penup()
     t.fd(50)
     t.pendown()
+done()
 
 
+
+
+
+
+9.
+from turtle import*
+import turtle
+t = Turtle()
+t.speed(0)
+for a in range(0 , 300 , 20):
+    t.circle(a)
+    t.penup()
+    t.goto(x=0 , y = -a)
+    t.pendown()
 done()
