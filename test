@@ -71,3 +71,31 @@ for i in range(a):
     t.pendown()
 
 done()
+6.
+from turtle import*
+import turtle
+t = Turtle()
+t.speed(100)
+for a in range(10):
+    for i in range(10):
+        t.speed(0)
+        t.rt(300)
+        t.fd(50)
+        t.rt(120)
+
+        t.fd(50)
+        t.rt(120)
+        t.rt(300)
+        t.fd(50)
+        t.rt(120)
+
+        t.fd(50)
+        t.rt(120)
+
+    t.rt(45)
+    t.penup()
+    t.fd(50)
+    t.pendown()
+
+
+done()
