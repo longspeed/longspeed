@@ -1,0 +1,19 @@
+1.
+alphabets= ['A', 'B','C','D','E','F','G','A','B']
+a = 0
+b = 0
+#a
+print(len(alphabets))
+#b:
+for alphabet in alphabets:
+    if alphabet == "C":
+        print("Yes")
+#c
+for i in alphabets:
+    if i == "A":
+        a +=1
+for j in alphabets:
+    if j == "B":
+        b +=1
+
+print("So Luong chu A va B co trong danh sach la : " , a ,",",b)
