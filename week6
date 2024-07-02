@@ -35,4 +35,27 @@ b = 0
 for a in range(1, n+1):
     b += a
     print(b)
-
+#bai 7:
+n = int(input("Nhap n: "))
+sum = 0
+a =1
+b=1
+print(a)
+for i in range(n+1):
+    sum = a+b
+    a =b
+    b = sum
+    print(sum)
+#bai 8:
+#8.2
+import turtle
+from turtle import*
+t = Turtle()
+for i in range(3):
+    t.speed(0)
+    t.rt(70)
+    t.circle(radius=130, extent=70)
+    t.lt(110)
+    t.circle(radius=130, extent=70)
+    t.lt(60)
+done()
