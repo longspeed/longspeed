@@ -47,6 +47,29 @@ for i in range(n+1):
     b = sum
     print(sum)
 #bai 8:
+#8.1
+import turtle
+from turtle import*
+t = Turtle()
+
+t.circle(radius=80, extent=180)
+t.lt(180)
+t.circle(radius=80, extent=180)
+t.lt(360)
+t.circle(radius=80 ,extent=90)
+t.rt(90)
+t.fd(400)
+t.rt(90)
+t.circle(radius=80, extent=180)
+t.circle(radius=80, extent=90)
+t.lt(180)
+t.circle(radius=80, extent=180)
+t.circle(radius=80, extent=90)
+t.rt(90)
+t.fd(400)
+t.rt(90)
+t.circle(radius=80, extent=180)
+done()
 #8.2
 import turtle
 from turtle import*
@@ -58,4 +81,16 @@ for i in range(3):
     t.lt(110)
     t.circle(radius=130, extent=70)
     t.lt(60)
+done()
+#8.3
+import turtle
+from turtle import*
+t = Turtle()
+t.speed(0)
+for a in range(4):
+    t.lt(90)
+    t.circle(radius=25, extent=90)
+    t.fd(90)
+    t.lt(90)
+    t.circle(radius=55, extent=180)
 done()
