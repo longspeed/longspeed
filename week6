@@ -2,12 +2,15 @@
 for i in range(1, 10):
     print(str(i) * 9)
 #bai 2:
-a = int(input("Số lượng quốc gia: "))
-b = input("")
-c = input("")
-d = input("")
-e = input("")
-print("[",b,c,d,e,"]")
+#bai 2:
+b = "[]"
+a = int(input("Số lượng quốc gia : "))
+for i in range(a):
+    i = input("")
+
+    print(i,end=",")
+print()
+
 #bai 3:
 b = input("")
 c = input("")
