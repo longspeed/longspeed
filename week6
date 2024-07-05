@@ -28,6 +28,26 @@ if b > 0 or n <= 1:
     print(f"{n} không phải là số nguyên tố")
 else:
     print(f"{n} là số nguyên tố")
+#bai 5:
+def is_prime(num):
+    if num <= 1:
+        return False
+    if num == 2:
+        return True
+    if num % 2 == 0:
+        return False
+    i = 3
+    while i * i <= num:
+        if num % i == 0:
+            return False
+        i += 2
+    return True
+
+n = int(input("Nhập n : "))
+print(f"Các số nguyên tố từ 1 đến {n} là:")
+for i in range(1, n + 1):
+    if is_prime(i):
+        print(i, end="  ")
 
 #bai 6:
 n = int(input("Nhap n : "))
