@@ -22,6 +22,10 @@ while c == "búa" and d == 'bao' or c == 'bao' and d == "kéo" or c == "kéo" an
     c = input("Người chơi 1 ra: ")
     d = input("Người chơi 2 ra: ")
 print("Người chơi 1 đã thắng trong",f,"Lượt")
+
+
+
+
 #bai 4:
 import time
 a = int(input("Nhập thời gian đếm ngược : "))
@@ -30,24 +34,47 @@ while a != 0:
     time.sleep(1)
     a = a - 1
 
+    
+#bai 5:
+a = int(input("nhập a : "))
+b = int(input("nhập b : "))
+j = 0
+c = int(input('Phép tính (1: cộng, 2: trừ, 3: chia, 4: nhân): '))
+if c ==1:
+    j = a+b
+elif c ==2:
+    j = a-b
+elif c ==3:
+    j = a/b
+elif c ==4:
+    j = a*b
+print(j)
+d = input("Bạn muốn có muốn tính tiếp? (Yes,No): ")
+while d != 'No':
+    a = int(input("nhập a : "))
+    b = int(input("nhập b : "))
+    j = 0
+    c = int(input('Phép tính (1: cộng, 2: trừ, 3: chia, 4: nhân): '))
+    if c == 1:
+        j = a + b
+    elif c == 2:
+        j = a - b
+    elif c == 3:
+        j = a / b
+    elif c == 4:
+        j = a * b
+    print(j)
+    d = input("Bạn muốn có muốn tính tiếp? (Yes,No): ")
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#bai 6:
+a = int(input("nhập n : "))
+b = 1
+sum = 0
+while b <= a:
+    sum += b
+    b+=1
+print(sum)
 
 
 #bai 7:
