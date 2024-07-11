@@ -2,6 +2,8 @@
 i = int(input("Choose a number: "))
 while i < 10:
     i = int(input("Choose a number: "))
+    
+    
 #bai 2:
 import random
 i = random.randint(1,10)
@@ -9,6 +11,8 @@ a = int(input("Choose a random number from 1 to 10: "))
 while a != i:
     a = int(input("Choose a random number from 1 to 10: "))
 print("You guessed the right number")
+
+
 #bai 3:
 a = input("Người chơi 1: ")
 b = input("Người chơi 2: ")
@@ -22,8 +26,6 @@ while c == "búa" and d == 'bao' or c == 'bao' and d == "kéo" or c == "kéo" an
     c = input("Người chơi 1 ra: ")
     d = input("Người chơi 2 ra: ")
 print("Người chơi 1 đã thắng trong",f,"Lượt")
-
-
 
 
 #bai 4:
@@ -89,3 +91,49 @@ while c == "búa" and d == 'bao' or c == 'bao' and d == "kéo" or c == "kéo" an
     print("Lượt", f)
     c = input("Người chơi 1 ra: ")
 print("Bạn đã thắng","máy đã chọn",d)
+
+
+#bai 8:
+import turtle
+from turtle import *
+t = Turtle()
+a = []
+b = input("Nhập hình: ")
+while b == "circle" or b == "square" or b == "triangle":
+    a.append(b)
+    b = input("Nhập hình: ")
+for c in a:
+    print(c)
+    if c == "circle":
+        t.circle(50)
+        t.penup()
+        t.rt(90)
+        t.fd(30)
+        t.pendown()
+    elif c== "square":
+        t.fd(50)
+        t.rt(90)
+        t.fd(50)
+        t.rt(90)
+        t.fd(50)
+        t.rt(90)
+        t.fd(50)
+        t.rt(90)
+        t.penup()
+        t.rt(90)
+        t.fd(30)
+        t.pendown()
+    elif c == "triangle":
+        t.fd(50)
+        t.rt(120)
+        t.fd(50)
+        t.rt(120)
+        t.fd(50)
+        t.rt(120)
+        t.penup()
+        t.rt(90)
+        t.fd(30)
+        t.pendown()
+    else:
+        break
+done()
