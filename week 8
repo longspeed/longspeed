@@ -1,0 +1,21 @@
+#bai 1
+a = int(input("Nhập n: "))
+b = str(input("nhâp tên: "))
+c = 0
+d = ''
+while c != a-1:
+    b = input("nhâp tên: ")
+    c = c +1
+if len(b) >= 5:
+        print(b)
+  #bai2
+a = int(input("Nhập n: "))
+b = str(input("nhâp danh sách chữ cái: "))
+c = int(input("Nhập n: "))
+d = str(input("nhâp danh sách chữ cái: "))
+
+for letter in b:
+    if letter in d:
+        print(letter, end=' ')
+
+
