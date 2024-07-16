@@ -18,4 +18,26 @@ for letter in b:
     if letter in d:
         print(letter, end=' ')
 
+#bai 4:
+a = int(input("Nhập n: "))
+f = []
+c = 0
+while c != a :
+    c= c+1
+    b = str(input("nhâp danh sách tên: "))
+    for i in b :
+        if i[0] and i[-1] == 'T' and 'i':
+            f.append(b)
+
+print(f)
+print()
+#bai6
+n = int(input("Nhập n : "))
+num = []
+for i in range(n):
+    a = int(input("Nhập danh sách số: "))
+    num.append(a)
+for a in num:
+    if a % 2 == 0 and a > 10:
+        print(a)
 
