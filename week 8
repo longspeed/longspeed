@@ -31,6 +31,19 @@ while c != a :
 
 print(f)
 print()
+#bai 5: 
+n = int(input("nhập n : "))
+a = 0
+for i in range(n):
+    c = input("Nhập Tên: ")
+    a += len(c)
+if a < 100:
+    print(f"Tổng số lượng chư cái {a} ")
+    print("False (vì không đủ 100)")
+else:
+    print(f"Tổng số lượng chư cái {a} ")
+    print("True")
+
 #bai6
 n = int(input("Nhập n : "))
 num = []
