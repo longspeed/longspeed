@@ -53,4 +53,14 @@ for i in range(n):
 for a in num:
     if a % 2 == 0 and a > 10:
         print(a)
+#bai 8:
+from turtle import *
+t = Turtle()
+t.penup()
+t.rt(70)
+t.pendown()
+for i in range(5):
+    t.lt(60)
+    t.circle(150, 85)
+done()
 
