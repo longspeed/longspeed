@@ -68,5 +68,81 @@ for instruction in instructions:
     turtle.circle(50)
     done()
 
+1.
+n = int(input('n: '))
+names = []
+for i in range(n):
+    name = input('Nhap ten: ')
+    names.append(name)
+for name in names:
+    if len(name) > 5:
+        print(name)
+    else:
+        pass
+2.
+ds1 = int(input('danh sach 1: '))
+letters1 = []
+for i in range(ds1):
+    letter1 = input('Nhap chu cai: ')
+    letters1.append(letter1)
+ds2 = int(input('danh sach 2: '))
+letters2 = []
+for a in range(ds2):
+    letter2 = input('Nhap chu cai: ')
+    letters2.append(letter2)
+for letter1 in letters1:
+    for letter2 in letters2:
+        if letter2 == letter1:
+            print('Chu cai trung: ', letter2)
+        else:
+            pass
+3.
+n = int(input('so luong so: '))
+numbers = []
+for i in range(n):
+    number = int(input('Nhap so: '))
+    numbers.append(number)
+for number in numbers:
+    if number == n
+4.
+n = int(input('n: '))
+names = []
+for i in range(n):
+    name = input('Nhap ten: ')
+    for a in name:
+        if a[0] and a[-1] == 'T' and 'i':
+            names.append(name)
+print(names)
+print()
+5.
+n = int(input())
+a = 0
+tong = 0
+while a != n:
+    name = input('Nhap ten: ')
+    tong = tong + len(name)
+    a = a + 1
+print('Tong so luong chu cai: ', tong)
+if tong > 100:
+    print('True (vi lon hon 100)')
+else:
+    print('False (vi khong lon hon 100)')
+6.
+n = int(input('n: '))
+numbers = []
+for i in range(n):
+    number = int(input('Nhap so: '))
+    numbers.append(number)
+for number in numbers:
+    if number > 10 and number % 2 == 0:
+        print(number)
+7.
+8.
+from turtle import *
+t = Turtle()
+for i in range(5):
+    t.lt(60)
+    t.circle(100, 85)
+done()
 
 
