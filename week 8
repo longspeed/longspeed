@@ -17,6 +17,22 @@ d = str(input("nhâp danh sách chữ cái: "))
 for letter in b:
     if letter in d:
         print(letter, end=' ')
+#bai 3:
+n = int(input('so luong so: '))
+numbers = []
+for i in range(n):
+    number = int(input('Nhap so: '))
+    numbers.append(number)
+sokhonglap = 0
+for num1 in numbers:
+    loop=0
+    for num2 in numbers:
+        if num1 == num2:
+            loop+=1
+    if loop==1:
+        sokhonglap+=1
+print(sokhonglap)
+
 
 #bai 4:
 a = int(input("Nhập n: "))
@@ -53,6 +69,100 @@ for i in range(n):
 for a in num:
     if a % 2 == 0 and a > 10:
         print(a)
+#bai 7:
+import turtle
+from turtle import *
+t = Turtle()
+t.speed(0)
+t.fillcolor('black')
+t.penup()
+t.fd(50)
+t.pendown()
+t.begin_fill()
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.lt(90)
+t.end_fill()
+t.penup()
+t.fd(50)
+t.pendown()
+t.begin_fill()
+t.lt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.lt(90)
+t.bk(50)
+t.lt(180)
+t.end_fill()
+t.penup()
+t.fd(100)
+t.pendown()
+t.begin_fill()
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.lt(90)
+t.bk(50)
+t.lt(180)
+t.end_fill()
+t.penup()
+t.bk(100)
+t.pendown()
+t.begin_fill()
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.lt(90)
+t.bk(50)
+t.lt(180)
+t.lt(90)
+t.end_fill()
+t.begin_fill()
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.fd(50)
+t.rt(90)
+t.end_fill()
+t.penup()
+t.home()
+t.pendown()
+t.fd(100)
+t.rt(90)
+t.fd(50)
+t.bk(150)
+t.rt(90)
+t.fd(150)
+t.rt(90)
+t.bk(150)
+t.rt(90)
+t.fd(150)
+done()
 #bai 8:
 from turtle import *
 t = Turtle()
