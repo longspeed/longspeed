@@ -1,0 +1,17 @@
+1#
+def say_hello(name=input("Nhap ten: ")
+  print(f'Hello {name}')
+say_hello()
+
+#2
+def display_information(name = input("name: "),age =int(input("age: ")),address = input("address: ")):
+    print(f'Hello {name},{age} years old ,lives at {address}')
+display_information()
+#3
+def cal(a=int(input("Nhap a: ")),b=int(input("Nhap b: "))):
+    print("Cong =",a+b)
+    print('Tru =',a-b)
+    print('Nhan =',a*b)
+    print('Chia =',a/b)
+cal()
+#4
