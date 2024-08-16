@@ -10,3 +10,9 @@ def calculate_sum_of_odd(num):
     total = sum(odd_number)
     return total
 print(calculate_sum_of_odd([1,2,3,4,5]))
+#3
+def factors_of_four(num):
+    four = [n for n in num if n % 4 == 0]
+    return four
+
+print(factors_of_four([1,2,3,4,5,6,7,8]))
