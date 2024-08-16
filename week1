@@ -4,3 +4,9 @@ def calculate(num):
     return total
 calculate([1,2,3,4,5])
 print(calculate([1234,6,4,3,2]))
+#2.
+def calculate_sum_of_odd(num):
+    odd_number=(n for n in num if n % 2 != 0)
+    total = sum(odd_number)
+    return total
+print(calculate_sum_of_odd([1,2,3,4,5]))
