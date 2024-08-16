@@ -1,0 +1,6 @@
+#1.
+def calculate(num):
+    total = sum(num)
+    return total
+calculate([1,2,3,4,5])
+print(calculate([1234,6,4,3,2]))
