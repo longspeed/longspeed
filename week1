@@ -10,12 +10,18 @@ def calculate(c):
 result = calculate(c)
 print(result)
 
-#2.
-def calculate_sum_of_odd(num):
-    odd_number=(n for n in num if n % 2 != 0)
+#2
+input2 = []
+input1 = int(input("Nhap n: "))
+for i in range(input1):
+    a = int(input("Nhap so: "))
+    input2.append(a)
+def calculate_sum_of_odd(input2):
+    odd_number=(n for n in input2 if n % 2 != 0)
     total = sum(odd_number)
     return total
-print(calculate_sum_of_odd([1,2,3,4,5]))
+result = calculate_sum_of_odd(input2)
+print(result)
 #3
 def factors_of_four(num):
     four = [n for n in num if n % 4 == 0]
