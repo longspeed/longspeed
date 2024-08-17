@@ -34,3 +34,15 @@ def displayMultiplesOf5(num):
     return five
 
 print(displayMultiplesOf5([1,2,3,4,5,6,7,8]))
+
+
+
+#auto nhap n:
+def input_list():
+    input2 = []
+    input1 = int(input("Nhap n: "))
+    for i in range(input1):
+        a = int(input("Nhap so: "))
+        input2.append(a)
+    return input2
+input_list()
