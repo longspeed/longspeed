@@ -46,3 +46,30 @@ def input_list():
         input2.append(a)
     return input2
 input_list()
+
+
+#5: 
+def printFrom1000To3000():
+    for i in range(1000,3001):
+        print(i)
+printFrom1000To3000()
+#6:
+def findNumbersDivisibleBy7Not5():
+    for i in range(2000,3200):
+        if i % 7 == 0 and i % 5 !=0:
+            print(i)
+findNumbersDivisibleBy7Not5()
+#7:
+a = int(input("Nhap a: "))
+b = int(input("Nhap b: "))
+k = int(input("Nhap k: "))
+def isCommonFactor(a,b,k):
+    if a % k == 0 and b % k ==0:
+        return True
+    else:
+        return False
+if isCommonFactor(a,b,k):
+    print(f"{k} la uoc chung cua {a},{b}")
+else:
+    print(f'{k} khong phai la uoc chung cua {a},{b}')
+
