@@ -53,12 +53,16 @@ def printFrom1000To3000():
     for i in range(1000,3001):
         print(i)
 printFrom1000To3000()
+
+
 #6:
 def findNumbersDivisibleBy7Not5():
     for i in range(2000,3200):
         if i % 7 == 0 and i % 5 !=0:
             print(i)
 findNumbersDivisibleBy7Not5()
+
+
 #7:
 a = int(input("Nhap a: "))
 b = int(input("Nhap b: "))
@@ -72,4 +76,39 @@ if isCommonFactor(a,b,k):
     print(f"{k} la uoc chung cua {a},{b}")
 else:
     print(f'{k} khong phai la uoc chung cua {a},{b}')
+
+
+#8
+n = int(input("Nhap n: "))
+m = int(input("Nhap m: "))
+k = int(input("Nhap k: "))
+def findRemainningCandies(n,m,k):
+    result = n-m*k
+    print(f'So keo ban kim con lai la : {result}')
+findRemainningCandies(n,m,k)
+
+
+#9
+a = float(input("Nhap chieu dai : "))
+b = float(input("Nhap chieu rong: "))
+meters = a * b
+def getMoneyBasedOnMeters(meters):
+    result = meters * 10000
+    print(f'{result/100} ngan dong la so tien phai tra cho cong ty son')
+getMoneyBasedOnMeters(meters)
+
+#10
+n = int(input("nhap n: "))
+numbers = []
+for i in range(n):
+    a = int(input("nhap so: "))
+    numbers.append(a)
+k = int(input("nhap k: "))
+def find(numbers,k):
+    for index , num in enumerate(numbers):
+        if num == k:
+            print(f"{k} xuat hien o vi tri {index}")
+            return
+    print('-1')
+find(numbers,k)
 
