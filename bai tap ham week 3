@@ -1,0 +1,10 @@
+#bai 1
+string1 = str(input("Nhap chuoi 1: "))
+string2 = str(input("Nhap chuoi 2: "))
+
+def check_first_letter(string1,string2):
+    if string1[0] == string2[0]:
+        print(f'{string1} va {string2} giong nhau chu cai dau la {string1[0]}')
+    else:
+        print(f'{string1} va {string2} khong co giong nhau chu cai dau tien')
+check_first_letter(string1,string2)
