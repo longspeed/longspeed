@@ -8,3 +8,18 @@ def check_first_letter(string1,string2):
     else:
         print(f'{string1} va {string2} khong co giong nhau chu cai dau tien')
 check_first_letter(string1,string2)
+
+#bai 2:
+a = int(input("Nhap a: "))
+b = int(input("Nhap b: "))
+def makes_twenty(a,b):
+    if a == 20 or b == 20 or a + b == 20:
+        print(True)
+    else:
+        print(False)
+makes_twenty(a,b)
+#3
+string = str(input("Nhap vao: "))
+def old_macdonald(string):
+    return string[0].upper() + string[1:3] + string[3].upper() + string[4:]
+print(old_macdonald(string))
