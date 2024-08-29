@@ -23,3 +23,12 @@ string = str(input("Nhap vao: "))
 def old_macdonald(string):
     return string[0].upper() + string[1:3] + string[3].upper() + string[4:]
 print(old_macdonald(string))
+#4
+strings =[]
+n = int(input("Nhap n: "))
+for i in range(n):
+    a = input("Nhap: ")
+    strings.append(a)
+def reverse_Strings(strings):
+     print(strings[::-1])
+reverse_Strings(strings)
