@@ -32,3 +32,18 @@ for i in range(n):
 def reverse_Strings(strings):
      print(strings[::-1])
 reverse_Strings(strings)
+
+
+
+
+#6
+a = int(input("Nhap a: "))
+b = int(input("Nhap b: "))
+def findMax(a,b):
+    if b > a:
+        print(b)
+    if a > b:
+        print(a)
+    else:
+        print('a=b')
+findMax(a,b)
