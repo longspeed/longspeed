@@ -58,3 +58,5 @@ def findMin(a,b):
     else:
         print('a=3')
 findMin(a,b)
+
+string.isdigit
