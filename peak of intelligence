@@ -1,0 +1,32 @@
+1#
+def getstarted():
+    print("Let's do it!")
+getstarted()
+
+2#
+def get_information():
+    name = input("Nhập tên: ")
+    age = int(input("Nhập tuổi: "))
+    print(f"Hello {name}, {age} yrs old")
+get_information()
+#3
+numbers = [1, 2, 3 ,4 ,5, 6, 7, 8, 9, 10]
+def get_even_sum_numbers(numbers):
+    total = 0
+    for i in numbers:
+        if i % 2 == 0:
+            total = total + i
+    print(total)
+
+get_even_sum_numbers(numbers)
+#5
+names = ['John', 'Anna', 'Luna', 'Harry', 'Lucy', 'Jayce', 'Joyce']
+def name_filter(names):
+    names_start_with_j = []
+    for i in names:
+        if i[0] == 'J':
+            names_start_with_j.append(i)
+    print(names_start_with_j)
+name_filter(names)
+
+
