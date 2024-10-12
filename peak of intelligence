@@ -19,7 +19,17 @@ def get_even_sum_numbers(numbers):
     print(total)
 
 get_even_sum_numbers(numbers)
-#4
+
+#5
+names = ['John', 'Anna', 'Luna', 'Harry', 'Lucy', 'Jayce', 'Joyce']
+def name_filter(names):
+    names_start_with_j = []
+    for i in names:
+        if i[0] == 'J':
+            names_start_with_j.append(i)
+    print(names_start_with_j)
+name_filter(names)
+#6
 def is_prime(n):
     if n <= 1:
         return False
@@ -38,14 +48,15 @@ def find_pair_numbers(numbers):
     print(prime_pair)
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 find_pair_numbers(numbers)
-#5
-names = ['John', 'Anna', 'Luna', 'Harry', 'Lucy', 'Jayce', 'Joyce']
-def name_filter(names):
-    names_start_with_j = []
-    for i in names:
-        if i[0] == 'J':
-            names_start_with_j.append(i)
-    print(names_start_with_j)
-name_filter(names)
+#7
+number = int(input("Nhap so: "))
+def sum_of_digits(number):
+    digit = str(number)
+    total = 0
+    for a in digit:
+        total += int(a)
+    print(total)
+sum_of_digits(number)
+
 
 
